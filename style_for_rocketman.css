@@ -1,0 +1,87 @@
+nav {
+    height: 1%;
+    background-color: white;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*img#logo {
+    height: 80px;
+    width: 80px;
+    float: end;
+}*/
+
+ul#nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+div#mainbox {
+    background-image: url(spacex-OHOU-5UVIYQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    width: 100%;
+    display: block;
+    align-content: center;
+}
+
+div#box{
+    background-color: rgba(0, 0, 0, 0.50);
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+}
+    
+
+p {
+    margin: 200px 500px 50px ;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul#div li {
+    vertical-align: middle;
+    list-style-type: none;
+    text-align: center;
+    margin: 0%;
+    text-decoration: none;
+    align-content: center;
+    align-self: center;
+}
+
+
+a{
+    color: black;
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    /*width: 300px;*/
+    background-color: white;
+    padding: 20px;
+    /* margin: 0 3642px 0 3642px ;*/
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    vertical-align: middle;
+    margin: 50px 50px;
+
+}
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
