@@ -1,37 +1,48 @@
+body {
+    margin: 0;
+}
+
 nav {
-    height: 1%;
+    height: 75px;
     background-color: white;
     width: 100%;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin-top: 0;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
 }
 
-/*img#logo {
-    height: 80px;
-    width: 80px;
-    float: end;
-}*/
+ul#nav {
+    margin: 0;
+}
+
+img#logo {
+    height: 75px;
+}
 
 ul#nav li {
     list-style-type: none;
     display: inline-block;
     margin: 0 50px;
+    margin-top: 0;
+    align-self: center;
     text-align: center;
     vertical-align: middle;
+    height: 75px;
 }
 
 
-div#mainbox {
+main#mainbox {
     background-image: url(Images/spacex-OHOU-5UVIYQ-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    display: inline-block;
     height: 800px;
     width: 100%;
-    display: block;
     align-content: center;
+    vertical-align: middle;
+
 }
 
 div#box{
@@ -41,44 +52,41 @@ div#box{
     display: inline-block;
     vertical-align: middle;
     align-content: center;
+    align-self: center;
 }
     
 
-p {
-    margin: 200px 500px 50px ;
+p#title {
+    display: inline-block;
+    margin-top: 200px;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bolder;
     text-align: center;
     vertical-align: middle;
-}
-
-ul#div li {
-    vertical-align: middle;
-    list-style-type: none;
-    text-align: center;
-    margin: 0%;
-    text-decoration: none;
-    align-content: center;
     align-self: center;
+    align-content: center;
+    max-width: 300px;
 }
-
 
 a{
+    display: inline-block;
     color: black;
-    display: inline;
     text-decoration: none;
     font-size: 30px;
-    /*width: 300px;*/
     background-color: white;
     padding: 20px;
-    /* margin: 0 3642px 0 3642px ;*/
     text-align: center;
     align-self: center;
     align-content: center;
+    max-width: 300px;
     vertical-align: middle;
-    margin: 50px 50px;
+    
 
+}
+
+p.lorem {
+    max-width: 50%;
 }
 
 a:hover{
